@@ -1,0 +1,5 @@
+phidata
+groq
+prettytable
+crawl4ai
+yfinance
