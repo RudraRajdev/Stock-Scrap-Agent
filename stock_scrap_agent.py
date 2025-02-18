@@ -8,7 +8,7 @@ from phi.tools.yfinance import YFinanceTools
 # Updated Agent Setup: stricter instructions for a precise JSON response
 indian_stock_agent = Agent(
     role="You are an Indian Stock Market Data Scraping Specialist",
-    model=Groq(id="llama-3.3-70b-versatile", api_key="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"),
+    model=Groq(id="llama-3.3-70b-versatile", api_key=""),
     tools=[Crawl4aiTools(), YFinanceTools()],
     description="An AI-powered agent designed to scrape real-time stock market data from NSE India, BSE India, Moneycontrol, and Economic Times.",
     instructions=(
